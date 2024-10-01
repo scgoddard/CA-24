@@ -1,10 +1,10 @@
 import streamlit as st
 import pandas as pd
-import numpy
 import matplotlib.pyplot as plt
 
-st.title("My Very First Streamlit App!")
-st.write("This app demonstrates many different Streamlit features.")
+# Streamlit Setup and User Interaction
+st.title("My First Streamlit App")
+st.write("This app demonstrates various Streamlit features.")
 
 # User Input Controls
 name = st.text_input("Enter your name:")
@@ -39,5 +39,5 @@ with col1:
 with col2:
     st.write("World")
 
-with st.expander("Expand for more info"):
-    st.write("Here you could put in some extra ordinary explanatary stuff.")
+with st.expander("Expand for more information"):
+    st.write("Here you could put in some really, really explanatory stuff.")
